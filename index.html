@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ver Nombre y password</title>
+	<meta charset="UTF-8">
+	<script type="text/javascript">
+		function pulsar()
+		{
+		alert("Su nombre es : " + document.getElementById("nombre").value);
+		alert("Su pass es : " + document.getElementById("pass").value);
+		}
+	</script>
+</head>
+<body>
+	
+		
+		<form action="index.html" method="post">
+			<label for="Nombre"></label>
+			<input type="Nombre" id="nombre" placeholder="Escribe su nombre">
+			<input type="password" id="pass" placeholder="Escribe su pass">
+			<input type="submit" onclick="pulsar()">
+		</form>
+
+</body>
+</html>
